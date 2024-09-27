@@ -1,4 +1,4 @@
-output "cluster_id" {
+/* output "cluster_id" {
   description = "EKS cluster ID."
   value       = module.eks.cluster_id
 }
@@ -27,3 +27,4 @@ output "oidc_provider_arn" {
 #  value = format("%s %s %s %s", "aws eks update-kubeconfig --name", module.eks.cluster_id, "--region", var.aws_region)
 #}
 
+*/
